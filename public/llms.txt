@@ -1,0 +1,15 @@
+# Wickra Screener
+
+> Parallel multi-symbol screening over the 514 streaming indicators of the Wickra core. A screen is a JSON condition tree — not code — evaluated across thousands of symbols in parallel, deterministic and byte-identical across all ten language bindings and between the parallel (rayon) and sequential (WASM) paths.
+
+Wickra Screener folds a serde `ScanSpec` (an ordered set of indicator/price conditions combined with AND/OR/NOT) over a universe of symbols. The core logic lives in one Rust crate and is reachable from Rust, Python, Node.js, WASM and — over a C ABI — C, C++, C#, Go, Java and R, plus a reference CLI. Every binding produces a byte-identical ranked result, pinned by golden fixtures in CI. Released under the MIT OR Apache-2.0 license.
+
+## Source and packages
+- [GitHub](https://github.com/wickra-lib/wickra-screener): Source, issues, and releases.
+- [crates.io](https://crates.io/crates/wickra-screener): Rust crate.
+- [PyPI](https://pypi.org/project/wickra-screener/): Python package.
+- [npm](https://www.npmjs.com/package/wickra-screener): Node package.
+
+## Ecosystem
+- [Wickra](https://wickra.org): The core streaming-indicator library the screener is built on.
+- [Docs](https://docs.wickra.org): Documentation for the Wickra core.
