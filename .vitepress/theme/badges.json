@@ -21,6 +21,20 @@
     "height": 20
   },
   {
+    "alt": "GitHub release",
+    "href": "https://github.com/wickra-lib/wickra-screener/releases/latest",
+    "file": "/badges/release.svg",
+    "width": 111,
+    "height": 20
+  },
+  {
+    "alt": "crates.io",
+    "href": "https://crates.io/crates/wickra-screener",
+    "file": "/badges/crates.svg",
+    "width": 119,
+    "height": 20
+  },
+  {
     "alt": "PyPI",
     "href": "https://pypi.org/project/wickra-screener/",
     "file": "/badges/pypi.svg",
@@ -32,6 +46,13 @@
     "href": "https://www.npmjs.com/package/wickra-screener",
     "file": "/badges/npm.svg",
     "width": 97,
+    "height": 20
+  },
+  {
+    "alt": "Maven Central",
+    "href": "https://central.sonatype.com/artifact/org.wickra/wickra-screener",
+    "file": "/badges/maven.svg",
+    "width": 153,
     "height": 20
   },
   {
