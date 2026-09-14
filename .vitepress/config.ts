@@ -116,7 +116,7 @@ export default defineConfig({
           { text: 'crates.io', link: 'https://crates.io/crates/wickra-screener' },
           { text: 'PyPI', link: 'https://pypi.org/project/wickra-screener/' },
           { text: 'npm', link: 'https://www.npmjs.com/package/wickra-screener' },
-          { text: 'NuGet', link: 'https://www.nuget.org/packages/WickraScreener' },
+          { text: 'NuGet', link: 'https://www.nuget.org/packages/Wickra.Screener' },
           { text: 'Maven Central', link: 'https://central.sonatype.com/artifact/org.wickra/wickra-screener' },
           { text: 'Go module', link: 'https://pkg.go.dev/github.com/wickra-lib/wickra-screener-go' },
           { text: 'r-universe', link: 'https://wickra-lib.r-universe.dev' },
