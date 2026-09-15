@@ -26,5 +26,5 @@ Targets .NET 8.
 
 ## More
 
-- [NuGet](https://www.nuget.org/packages/WickraScreener)
+- [NuGet](https://www.nuget.org/packages/Wickra.Screener)
 - [Source & examples](https://github.com/wickra-lib/wickra-screener/tree/main/examples/csharp)
