@@ -8,7 +8,7 @@ then drive it with `command(json) -> json`.
 <dependency>
   <groupId>org.wickra</groupId>
   <artifactId>wickra-screener</artifactId>
-  <version>0.1.0</version>
+  <version>0.1.5</version>
 </dependency>
 ```
 
