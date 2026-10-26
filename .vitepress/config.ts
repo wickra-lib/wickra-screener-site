@@ -29,7 +29,7 @@ const structuredData = {
       operatingSystem: 'Windows, macOS, Linux, WebAssembly',
       programmingLanguage: ['Rust', 'Python', 'JavaScript', 'WebAssembly', 'C', 'C++', 'C#', 'Go', 'Java', 'R'],
       description:
-        'Scan thousands of symbols in parallel against a JSON condition tree over 514 streaming indicators, in ten languages. Built on the Wickra core.',
+        'Scan thousands of symbols in parallel against a JSON condition tree over 495 streaming indicators, in ten languages. Built on the Wickra core.',
       license: 'https://github.com/wickra-lib/wickra-screener#license',
       publisher: { '@id': 'https://screener.wickra.org/#organization' },
     },
@@ -39,7 +39,7 @@ const structuredData = {
 export default defineConfig({
   title: 'Wickra Screener',
   description:
-    'Scan thousands of symbols in parallel against a JSON condition tree over 514 streaming indicators, in ten languages. Built on the Wickra core.',
+    'Scan thousands of symbols in parallel against a JSON condition tree over 495 streaming indicators, in ten languages. Built on the Wickra core.',
   lang: 'en-US',
   cleanUrls: true,
 
@@ -66,7 +66,7 @@ export default defineConfig({
       {
         property: 'og:description',
         content:
-          'Parallel multi-symbol screening over 514 streaming indicators, in ten languages. A JSON condition tree, deterministic and byte-identical across every binding.',
+          'Parallel multi-symbol screening over 495 streaming indicators, in ten languages. A JSON condition tree, deterministic and byte-identical across every binding.',
       },
     ],
     ['meta', { property: 'og:image', content: 'https://screener.wickra.org/og-banner.webp' }],

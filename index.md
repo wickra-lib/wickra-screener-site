@@ -6,7 +6,7 @@ titleTemplate: false
 hero:
   name: "Wickra Screener"
   text: "Scan thousands. One condition tree."
-  tagline: "Parallel multi-symbol screening over 514 streaming indicators. A screen is a JSON condition tree — data, not code — deterministic and byte-identical across ten languages."
+  tagline: "Parallel multi-symbol screening over 495 streaming indicators. A screen is a JSON condition tree — data, not code — deterministic and byte-identical across ten languages."
   image:
     src: /wickra-mark.svg
     alt: Wickra Screener
@@ -26,8 +26,8 @@ features:
     title: The screen is JSON, not code
     details: A scan is a serde ScanSpec — a condition tree of indicator, price and constant expressions combined with all/any/not. Because it is data, the exact same screen crosses the C ABI and WASM unchanged.
   - icon: 📈
-    title: 514 indicators
-    details: "Every condition can reference any of the 514 O(1) streaming indicators from the Wickra core — Rsi, Ema, Macd, BollingerBands and the rest — evaluated at the latest bar."
+    title: 495 indicators
+    details: "Every condition can reference any of the 495 O(1) streaming indicators the backtest registry resolves — Rsi, Ema, Macd, BollingerBands and the rest — evaluated at the latest bar."
   - icon: ⚡
     title: Parallel over the universe
     details: Thousands of symbols are folded and evaluated in parallel with rayon, or sequentially on the WASM fallback path. Both produce a byte-for-byte identical ranked report.
@@ -147,8 +147,8 @@ Construct a `Screener` from the JSON spec, then drive it with
 ## Built on the Wickra core
 
 Wickra Screener is part of the [Wickra](https://wickra.org) ecosystem. Every
-condition draws on the 514 O(1) streaming indicators of
-[`wickra-core`](https://github.com/wickra-lib/wickra), so a screen sees exactly
+condition draws on the 495 O(1) streaming indicators the backtest registry
+resolves from [`wickra-core`](https://github.com/wickra-lib/wickra), so a screen sees exactly
 the same numbers a backtest or a live chart would.
 
 > Wickra Screener is a software library, not a trading system, and comes with no

@@ -1,7 +1,7 @@
 # About Wickra Screener
 
 Wickra Screener scans thousands of symbols in parallel against a single condition
-tree over the 514 streaming indicators of the Wickra core. A screen is a JSON
+tree over the 495 streaming indicators the backtest registry resolves. A screen is a JSON
 document — **data, not code** — so the exact same scan runs in every one of ten
 languages and returns byte-for-byte identical results.
 
@@ -11,7 +11,7 @@ languages and returns byte-for-byte identical results.
   indicator / price / constant expressions combined with `all` / `any` / `not`, and
   an optional `rank` and `limit`. Because it is data, it crosses the C ABI and WASM
   unchanged.
-- **514 indicators.** Any condition can reference any Wickra indicator (`Rsi`,
+- **495 indicators.** Any condition can reference any of them by name (`Rsi`,
   `Ema`, `Macd`, `BollingerBands`, …), evaluated at the latest bar.
 - **Parallel and deterministic.** The universe is folded in parallel with rayon, or
   sequentially on the WASM path — both produce a byte-identical ranked report,

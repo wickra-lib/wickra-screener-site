@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://screener.wickra.org"><img src="https://raw.githubusercontent.com/wickra-lib/.github/main/profile/wickra-banner.svg?v=514-8" alt="Wickra Screener — scan thousands of symbols in parallel against a JSON condition tree over 514 streaming indicators" width="100%"></a>
+  <a href="https://screener.wickra.org"><img src="https://raw.githubusercontent.com/wickra-lib/.github/main/profile/wickra-banner.svg?v=514-8" alt="Wickra Screener — scan thousands of symbols in parallel against a JSON condition tree over 495 streaming indicators" width="100%"></a>
 </p>
 
 [![Built on Wickra](https://raw.githubusercontent.com/wickra-lib/.github/main/profile/badges/wickra-screener-site/built-on.svg)](https://github.com/wickra-lib/wickra)
@@ -15,7 +15,7 @@ Built with [VitePress](https://vitepress.dev).
 The structure mirrors [webpage](https://github.com/wickra-lib/webpage)
 (wickra.org) and [wickra-docs](https://github.com/wickra-lib/wickra-docs)
 (docs.wickra.org): shared header, footer, theme, badge pipeline and workflows.
-**Wickra Screener** — scan thousands of symbols in parallel against a JSON condition tree over 514 streaming indicators. The library itself is
+**Wickra Screener** — scan thousands of symbols in parallel against a JSON condition tree over 495 streaming indicators. The library itself is
 [`wickra-lib/wickra-screener`](https://github.com/wickra-lib/wickra-screener); its README carries the install line and a quick start for every language.
 
 ## Develop
